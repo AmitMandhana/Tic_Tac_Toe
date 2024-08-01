@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(0, 255, 64);
+}
+h1
+{
+    text-align: center;
+    color: rgb(192, 22, 22);
+    padding: 5vh;
+    font-size: 7vh;
+}
+.container
+{
+height: 70vh;
+display: flex;
+justify-content: center;
+}
+#game
+{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    justify-content: center;
+    gap: 1vmin;
+    flex-wrap: wrap;
+}
+
+.box
+{
+    height:19vh;
+    width:19vh;
+    background-color: rgb(47, 199, 204);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    color : rgb(221, 21, 21);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+#reset-btn{
+    padding:1rem;
+    font-size: 1rem;
+}
